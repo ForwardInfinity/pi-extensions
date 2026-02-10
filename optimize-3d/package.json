@@ -1,0 +1,17 @@
+{
+  "name": "pi-extension-optimize-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4",
+    "@gltf-transform/extensions": "^4",
+    "@gltf-transform/functions": "^4",
+    "draco3dgltf": "^1",
+    "meshoptimizer": "^0.21",
+    "sharp": "^0.33"
+  }
+}
